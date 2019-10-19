@@ -1,0 +1,44 @@
+/*
+Name: Aneri Desai
+Date: September 28 2018
+Section: CPSC 2121-003
+Assignment name: text file for the searches
+*/
+Chicago NYC 6
+NYC DC 3
+DC Raleigh 5
+DC Norfolk 2
+Raleigh Clemson 10
+#####
+Chicago Norfolk
+Clemson Norfolk
+DC Chicago
+-----
+America Canada 3
+Canada Mexico 5
+Mexico Spain 7
+Mexico Columbia 6
+Columbia Brazil 4
+#####
+America Brazil
+Columbia Canada
+Spain America
+-----
+Easley Greenville 10
+Greenville Simpsonville 7
+Simpsonville Clemson 9
+Clemson Simsonville 8
+Simpsonville Charleston 15
+#####
+Easley Clemson
+Clemson Greenville
+Greenville Charleston
+-----
+Room Bathroom 5
+Bathroom Kitchen 2
+Kitchen Masterroom 3
+Masterroom Door 10
+#####
+Room Door 
+Masterroom Door
+Kitchen Door 

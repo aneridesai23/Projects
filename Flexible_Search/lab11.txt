@@ -1,0 +1,31 @@
+Name: Aneri Desai
+Date: 30th November
+Class name: cpsc2120 003
+File name: lab11.txt
+Assignment name: flexible search
+
+1) 
+input: food
+output: food.txt
+
+input: name.doc
+output:name.doc
+
+2)
+input: i love food
+
+filename: food.txt
+phrase: I love food Cake
+
+
+input: what is this
+
+filename:sorry the file does not exist
+pharase: sorry the phrase does not exist
+
+3)
+input: anim
+filename: animal.txt
+
+input:cccc
+output:sorry the files does not exist

@@ -1,0 +1,19 @@
+Guide:
+Once all the files are download into another folder user just type the MAKE command to 
+compile the program and to run the program user just need to type MAKE RUN command, since 
+the makefile is included in the folder. 
+
+Example:
+How many rows: 3
+How many columns: 3
+How many players: 2
+Character for player1: X
+Character for player2: O
+
+|   |   | X |
+|   | X | O |
+| X | O | O |
+
+Congratulations! palyer1 Won.
+Would you like to play again? Enter y for Yes and N for No
+N

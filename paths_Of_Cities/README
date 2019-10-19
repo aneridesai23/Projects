@@ -1,0 +1,25 @@
+Guide:
+-> A C++ program
+-> To run the program in command line, the user just need to download all the files into one folder and 
+  once inside the folder type in MAKE to compile and MAKE RUN to run the program
+  
+ Example:
+  1)
+  Chicago Norfolk
+  Clemson Norfolk
+  DC Chicago
+  -----
+  Chicago NYC 6
+  NYC DC 3
+  DC Raleigh 5
+  DC Norfolk 2
+  Raleigh Clemson 10
+  
+  RETURNS: 
+  
+  BFS: Chicago, NYC, DC, Raleigh, Norfolk; distance traveled: 16
+  DFS: Chicago, NYC, DC, Raleigh, Clemson, Norfolk; distance travelled: 26
+  BFS: Clemson, Raleigh, DC, NYC, Norfolk; distance traveled: 20
+  DFS: Clemson, Raleigh, DC, NYC, Chicago, Norfolk; distance travelled: 26
+  BFS: DC, NYC, Raleigh, Norfolk, Chicago; distance traveled: 16
+  DFS: DC, NYC, Chicago; distance travelled: 9

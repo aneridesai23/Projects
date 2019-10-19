@@ -1,0 +1,12 @@
+Name: Aneri Desai(anerid)
+
+How to run the program:
+
+- to compile the program: make
+- to run the program:  ./convolve ____.filt ____.png [___.png]
+- once program starts running user can choose what they want to do
+	- c key will apply the filter asked
+	- w key will write if file provided in the command line
+	- r reload the original image
+	- q it will quit the program
+

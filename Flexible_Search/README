@@ -1,0 +1,46 @@
+Guide:
+
+-> A C++ Program
+-> To run the program in command line, the user just need to download all the files into one folder 
+    and once inside the folder type in MAKE to compile and MAKE RUN to run the search.
+    The user needs to input a query(word or phrase) on the screen. If the query is an exact match 
+    then it will return the text file that matches and return the phrase if query is a string. No exact match 
+    for the word or phrase then it will compare character to character with the difference of 1 index and returns 
+    a file name and the phrase name if the similarity between the word or phrase and query is about half. 
+    If no match found then it will return no match found. 
+-> program uses: vector and map data structures
+
+Examples:
+Enter your query: name
+The best match is: name.txt
+
+Enter your query: who are y
+The best match is: name.txt (give the name of the file that contains 'who are you' phrase)
+The phrase that best matches is: who are you
+
+Functions: 
+1. String ifWordExist(int countExist)
+    If the query is exactly the same as the textfiles then the function will return the textfile, if not then blank string
+    case and extension(.txt) ignored
+    Ignoring both of them makes search more reliable
+2. String misSplWord()/ String misSplStri(): 
+    Both functions do the same thing except one is a word and the other one is a phrase
+    Even if the query would not match word to word to the filename/string it will return the file/string that matches best
+    .txt and case is ignored
+    Only compare if the difference is by one character and count increase if char matches
+    Do not have to worry about characters being too far away and meaning of the word changing if word returned
+    If the count has about half or higher characters similar to filename only then return the text file name
+    By doing this way I believe the meaning of the word won’t be changed and only the best result would be returned. 
+3. String completeSearch():
+    Call best search functions depending on the query being a string or word
+4. String strExactSear():
+    If the query matches word to word to the string inside a text file it will return it
+    Case is ignored 
+5. String bestFile()/String bestStrSear(): 
+    Both functions call the other word or string functions to get the result that matches the query
+    Most cases the misSpell function answer will be returned because it is checking the string from beginning to 
+    end and even a tiny difference matters
+6. String strFindMap(string strMa):
+    Just a helper function to iterate over the map to find the specific key
+7. Void print():
+    Print out the text files and strings

@@ -1,0 +1,9 @@
+Name: Aneri Desai(anerid)
+
+Description of code: read an image from a file, convert it to RGBA pixmap and display the image on the console that fits the window size
+
+how to run the code: 
+- compile the code with makefile
+- ./imgview -> gives the black diplay and user has an option to type r, w, q. If r or R then user can put in any image file to read the image from, if w or W then user can provide a outputfile name where the image will be stored and if user wants to quit type q or Q. 
+-./imgview imagefile -> display the image on console and user can use r,w,q commands as needed
+
